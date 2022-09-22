@@ -14,7 +14,7 @@ int main(){
 float x;
 printf("Enter integer x: ");
 scanf("%f", &x);
-
+ 
 printf("f(x) = %f\n", f(x));
 printf("g(x) = %f\n", g(x));
 
