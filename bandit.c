@@ -68,7 +68,7 @@ int main(){
 			}
 			printf("\nYOU LOSE!");
 			return 0;
-		}else if(choice = 2){
+		}else if(choice == 2){
 			printf("\nWinning combinations\nMULTIPLIER X33: 000 111 222 333 444\nMULTIPLIER X2: 5XX 7XX\nMULTIPLIER X5: 55X 77X\nMULTIPLIER X55: 555\nJACKPOT: 777\n\n");
 		}else return 0;
 }
