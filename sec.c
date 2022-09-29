@@ -27,9 +27,9 @@ int main(){
   
   for(i = 0; i < n; i++){
     if(flag = 1)
-      sumAfterNegative += mass[i];
+      sumAfterNegative += abs(mass[i]);
       
-    if(mass[i] > 0)
+    if(mass[i] < 0)
       flag = 1;
   }
   printf("\n sum of elements after first negative: %d", sumAfterNegative);
